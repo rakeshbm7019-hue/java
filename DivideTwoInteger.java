@@ -11,7 +11,7 @@ public class DivideTwoInteger {
         int divisor = sc.nextInt();
 
         DivideTwoInteger obj = new DivideTwoInteger();
-        int result = obj.divide(dividend, divisor);
+        int result = obj.sudivide(dividend, divisor);
 
         System.out.println("Quotient = " + result);
     }
