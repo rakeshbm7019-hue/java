@@ -23,7 +23,7 @@ public class Main {
             b[i] = (int) st.nval;
         }
         
-        Arrays.sort(b); // sort B into ascending order regardless of input order
+        Arrays.sort(b);
         
         int i = 0, j = 0;
         boolean first = true;
