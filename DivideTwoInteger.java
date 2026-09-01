@@ -2,18 +2,18 @@ import java.util.Scanner;
 
 public class DivideTwoInteger {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Enter dividend: ");
+            int dividend = sc.nextInt();
 
-        System.out.print("Enter dividend: ");
-        int dividend = sc.nextInt();
+            System.out.print("Enter divisor: ");
+            int divisor = sc.nextInt();
 
-        System.out.print("Enter divisor: ");
-        int divisor = sc.nextInt();
+            DivideTwoInteger obj = new DivideTwoInteger();
+            int result = obj.divide(dividend, divisor);
 
-        DivideTwoInteger obj = new DivideTwoInteger();
-        int result = obj.sudivide(dividend, divisor);
-
-        System.out.println("Quotient = " + result);
+            System.out.println("Quotient = " + result);
+        }
     }
 
     public int divide(int dividend, int divisor) {

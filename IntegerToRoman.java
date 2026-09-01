@@ -3,7 +3,6 @@ import java.util.Map;
 
 public class IntegerToRoman {
     private static final Map<Integer, String> romanNumerals = new HashMap<>();
-    System.out.println("Enter an integer to convert to Roman numeral:");
 
     static {
         romanNumerals.put(1, "I");

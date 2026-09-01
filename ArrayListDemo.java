@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-public class ArrayList{
+public class ArrayListDemo{
     public static void main(String[]args){
         java.util.ArrayList<Integer> list = new java.util.ArrayList<>();
 
@@ -16,6 +15,9 @@ public class ArrayList{
         System.out.println(list);
 
         list.remove(2);
+        System.out.println(list);
+
+        list.set(0,5);
         System.out.println(list);
     }
 }

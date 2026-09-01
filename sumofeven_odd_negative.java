@@ -24,5 +24,6 @@ public class sumofeven_odd_negative {
         System.out.println("Sum of even elements: " + sumEven);
         System.out.println("Sum of odd elements: " + sumOdd);
         System.out.println("Sum of negative elements: " + sumNegative);
+        sc.close();
     }
 }

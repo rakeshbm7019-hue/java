@@ -16,5 +16,6 @@ public class OddIndex{
         System.out.print(arr[i]+" ");
     }
 }
+    sc.close();
 }
 }

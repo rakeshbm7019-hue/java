@@ -1,4 +1,4 @@
-class Solution {
+class myAtoi {
     public int myAtoi(String s) {
         int i = 0, n = s.length(), sign = 1;
         long result = 0;
