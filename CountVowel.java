@@ -13,5 +13,6 @@ public class CountVowel{
             }
         }
         System.out.println("Number of vowels: " + count);
+        sc.close();
     }
 }
