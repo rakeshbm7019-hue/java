@@ -7,6 +7,7 @@ public class even{
 
         if(num%2==0){
             System.out.println("even");
+            
         }else
             System.out.println("odd");
 sc.close();
