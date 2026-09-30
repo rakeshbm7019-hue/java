@@ -11,6 +11,9 @@ public class ArrayListDemo{
         int element = list.get(1);
         System.out.println(element);
 
+
+        
+
         list.add(1,4);
         System.out.println(list);
 
