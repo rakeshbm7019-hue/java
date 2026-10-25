@@ -21,6 +21,10 @@ public class Main {
         for (int i = 0; i < m; i++) {
             st.nextToken();
             b[i] = (int) st.nval;
+
+
+
+            
         }
         
         Arrays.sort(b);
