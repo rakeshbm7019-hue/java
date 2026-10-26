@@ -8,6 +8,7 @@ public class Conccarenccy {
             Thread.sleep(1000);
             return 42;
         };
+        
 
         Callable<Integer> task2 = () -> {
             Thread.sleep(500);
