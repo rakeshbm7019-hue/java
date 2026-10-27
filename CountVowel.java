@@ -5,6 +5,8 @@ public class CountVowel{
         System.out.print("enter a character:");
         String input=sc.nextLine();
 
+        
+
         int count=0;
         for(int i=0;i<input.length();i++){
             char ch=input.charAt(i);
