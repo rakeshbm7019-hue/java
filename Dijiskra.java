@@ -15,6 +15,7 @@ class Dijkstra {
         Arrays.fill(dist, Integer.MAX_VALUE);
         dist[source] = 0;
 
+        
         PriorityQueue<int[]> pq = new PriorityQueue<>(Comparator.comparingInt(a -> a[1]));
         pq.offer(new int[]{source, 0});
 
