@@ -19,6 +19,7 @@ public class Duplicate {
                 if (!seen.add(num)) {
                     duplicates.add(num);
                 }
+                
             }
 
             System.out.println("Duplicates: " + duplicates);
