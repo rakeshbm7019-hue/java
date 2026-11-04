@@ -13,6 +13,7 @@ public class OddElementSum {
             arr[i] = sc.nextInt();
         }
         System.out.println("Sum of odd elements:");
+        
 
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {
