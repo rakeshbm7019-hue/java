@@ -9,6 +9,7 @@ public class LCM {
 
         System.out.println("LCM = " + lcm);
     }
+    
 
     static int findGCD(int x, int y) {
         while (y != 0) {
