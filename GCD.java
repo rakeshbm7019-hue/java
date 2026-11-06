@@ -9,6 +9,7 @@ public class GCD {
 
             
             int b = sc.nextInt();
+            
 
             while (b != 0) {
                 int temp = b;
