@@ -6,6 +6,7 @@ public class CountVowel{
         String input=sc.nextLine();
 
         
+        
 
         int count=0;
         for(int i=0;i<input.length();i++){
